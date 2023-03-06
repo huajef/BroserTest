@@ -1,0 +1,36 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;  
+}
+
+.intro {
+    margin-top: 10%;
+   
+  }
+  
+  table td,
+  table th {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  thead th,
+  tbody th {
+    color: #fff;
+  }
+  
+  tbody td {
+    font-weight: 500;
+    color: rgba(255,255,255,.65);
+  }
+  
+  .card {
+    border-radius: .5rem;
+  }
+
+  .container{
+    position:absolute;
+    top:15%;   
+  }
